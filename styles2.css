@@ -1,0 +1,401 @@
+/*<============================== General ==============================>*/
+
+body {
+    min-width: 320px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+html, body{
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    flex: 1 1 auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/*<============================== Header ==============================>*/
+
+.header-bg {
+    background: url('../assignment1/img/intro-bg2.png') no-repeat center top / cover;
+    padding-top: 10px;
+    height: 932px;
+}
+
+.header-phone {
+    display: inline;
+}
+
+.header-phone a {
+    text-decoration: none;
+}
+
+.header-phone:hover {
+    text-decoration: underline;
+}
+
+.header-phone i {
+    margin-right: 15px;
+    padding: 4px;
+}
+
+.social-icons {
+    list-style: none;
+}
+
+ul.social-icons a{
+    width: 32px;
+    height: 32px;
+    float:left;
+    border-radius: 50%;
+    background-color: rgb(0, 119, 255);
+    text-align: center;
+    line-height: 30px;
+}
+
+ul.social-icons li {
+    margin-right: 15px;
+}
+
+.navbar-nav li a {
+    font-size: 20px;
+    letter-spacing: 2.8px;
+}
+
+.offer {
+    margin-top: 180px;
+}
+
+.offer h1 {
+    width: 687px;
+    height: 120px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -0.24px;
+    margin-bottom: 20px;
+}
+.offer p {
+    width: 500px;
+    height: 75px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    letter-spacing: -0.1px;
+}
+
+.knopka {
+    color: #fff;
+	display: block;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 15px 50px;
+	border: 1px solid #fff;
+	width: 200px;
+	transition: all 0.5s ease;
+    text-decoration: none;
+    margin-bottom: 245px;
+}
+
+.knopka:hover {
+    background: #fff;
+    color: #000;
+}
+/*<============================== Section ==============================>*/
+
+.section-main {
+    background: #2E8EFF no-repeat center top / cover;
+}
+
+.explore {
+    color: white;
+    text-decoration: none;
+}
+
+.section-1 {
+    margin-bottom: 100px;
+}
+
+.section-1 h2{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-2 h2{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-3 h2{
+    text-align: center;
+}
+
+.section-2 {
+    margin-bottom: 100px;
+}
+
+.section-3 {
+    margin-bottom: 50px;
+}
+
+.section-3 p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+
+.footer {
+    background-color: rgb(0, 119, 255);
+    color:white;
+}
+
+.sub-search button {
+    margin-top: 20px;
+}
+
+.request-info h2 {
+    margin-bottom: 40px;
+}
+
+.searcht {
+    display: flex;
+    align-items: center;
+    background: url('../assignment1/img/rec2.png') no-repeat center top;
+    padding-left: px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.search-tours h2 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    color: #ffffff;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.searchtool {
+    display: flex;
+    height: 75px;
+    margin-left: 50px;
+}
+
+
+.searchtool div {
+    margin: auto;
+    margin-right: 70px;
+}
+
+.country {
+    display: flex;
+}
+
+.departure {
+    display: flex;
+}
+
+.date {
+    display: flex;
+}
+
+.people {
+    display: flex;
+}
+
+.searchtool div img{
+    margin-right: 5px;
+}
+
+.destinations h2 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    color: #ffffff;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pop-dest {
+    display: flex;
+    height: 580px;
+}
+
+.dubai {
+    display: block;
+    height: 586px;
+    width: 370px;
+    background: url('../assignment1/img/dubai.png') no-repeat center top;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 310px;
+}
+
+.dubai h3{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.15px;
+}
+.dubai p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.15px;
+}
+
+.pop-dest button {
+    margin-top: 80px;
+}
+
+.istanbul {
+    display: block;
+    height: 586px;
+    width: 370px;
+    background: url('../assignment1/img/turkey.png') no-repeat center top;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 310px;
+    margin-left: 30px;
+}
+
+.istanbul h3{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.15px;
+}
+.istanbul p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.15px;
+}
+
+.bali {
+    display: block;
+    height: 586px;
+    width: 370px;
+    background: url('../assignment1/img/bali.png') no-repeat center top;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 310px;
+    margin-left: 30px;
+}
+
+.bali h3{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.15px;
+}
+.bali p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.15px;
+}
+
+.popular-dest {
+    margin-left: 35px;
+}
+
+.application {
+    height: 230px;
+    margin-top: 100px;
+    background: url('../assignment1/img/sup.png') no-repeat center top;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.data-input {
+    display: flex;
+    padding-left: 0;
+}
+
+.application h3 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29.728px;
+    letter-spacing: -0.16px;
+}
+
+.error-message {
+    color: rgb(255, 208, 0);
+}
+
+.countdowntitle {
+    text-align: center;
+    font-size: 24px;
+}
+
+.timer {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.tab {
+    display: none;
+}
+
+.section-3 button {
+    text-decoration: none;
+    border: 1px solid #2E8EFF;
+    border-radius: 5px;
+}
+
+.section-3 button:hover {
+    background-color:rgb(255, 208, 0);
+}
+
+/*<============================== Footer ==============================>*/
